@@ -10,4 +10,8 @@
 
 @interface NewsItem : NSObject
 
+@property (nonatomic, strong) NSString *category;
+
+@property (nonatomic, strong) NSString *headline;
+
 @end

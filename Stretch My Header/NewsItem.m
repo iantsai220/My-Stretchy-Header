@@ -10,4 +10,19 @@
 
 @implementation NewsItem
 
+//- (instancetype)init
+//{
+//    self = [super init];
+//    if (self) {
+//        
+//        self.categories = @[@"World", @"Americas", @"Europe", @"Middle East", @"Africa", @"Asia Pacific"];
+//        
+//    }
+//    
+//    return self;
+//}
+
+
+
+
 @end

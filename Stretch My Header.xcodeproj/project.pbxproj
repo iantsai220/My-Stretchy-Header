@@ -15,6 +15,8 @@
 		96E6E4C91B275EC50091379C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E6E4C81B275EC50091379C /* Images.xcassets */; };
 		96E6E4CC1B275EC50091379C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E6E4CA1B275EC50091379C /* LaunchScreen.xib */; };
 		96E6E4D81B275EC50091379C /* Stretch_My_HeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6E4D71B275EC50091379C /* Stretch_My_HeaderTests.m */; };
+		96E6E4E31B275F700091379C /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6E4E21B275F700091379C /* NewsTableViewCell.m */; };
+		96E6E4E61B277B410091379C /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6E4E51B277B410091379C /* NewsItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		96E6E4D11B275EC50091379C /* Stretch My HeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stretch My HeaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E6E4D61B275EC50091379C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E6E4D71B275EC50091379C /* Stretch_My_HeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stretch_My_HeaderTests.m; sourceTree = "<group>"; };
+		96E6E4E11B275F700091379C /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		96E6E4E21B275F700091379C /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		96E6E4E41B277B410091379C /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		96E6E4E51B277B410091379C /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				96E6E4C01B275EC50091379C /* MasterViewController.m */,
 				96E6E4C21B275EC50091379C /* DetailViewController.h */,
 				96E6E4C31B275EC50091379C /* DetailViewController.m */,
+				96E6E4E11B275F700091379C /* NewsTableViewCell.h */,
+				96E6E4E21B275F700091379C /* NewsTableViewCell.m */,
+				96E6E4E41B277B410091379C /* NewsItem.h */,
+				96E6E4E51B277B410091379C /* NewsItem.m */,
 				96E6E4C51B275EC50091379C /* Main.storyboard */,
 				96E6E4C81B275EC50091379C /* Images.xcassets */,
 				96E6E4CA1B275EC50091379C /* LaunchScreen.xib */,
@@ -225,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E6E4BE1B275EC50091379C /* AppDelegate.m in Sources */,
+				96E6E4E31B275F700091379C /* NewsTableViewCell.m in Sources */,
 				96E6E4C11B275EC50091379C /* MasterViewController.m in Sources */,
+				96E6E4E61B277B410091379C /* NewsItem.m in Sources */,
 				96E6E4BB1B275EC50091379C /* main.m in Sources */,
 				96E6E4C41B275EC50091379C /* DetailViewController.m in Sources */,
 			);

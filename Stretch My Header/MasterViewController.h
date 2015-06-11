@@ -10,6 +10,8 @@
 
 @interface MasterViewController : UITableViewController
 
+-(void)updateHeaderView:(CGPoint)contentOffSet;
+
 
 @end
 

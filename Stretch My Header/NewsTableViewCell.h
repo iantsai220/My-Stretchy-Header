@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NewsItem.h"
 
 @interface NewsTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *categoryLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *headlineLabel;
+
+@property (nonatomic, strong) NewsItem *object;
+
+-(void)setLabelTextColor;
+
+
 
 @end
